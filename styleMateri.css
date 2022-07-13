@@ -1,0 +1,131 @@
+*{
+  text-decoration: none;
+  margin : auto;
+  padding: 0px 20px 0px 20px;
+}
+
+body{
+  margin: 0px;
+  padding : 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+  width: 1100px;
+  margin : auto;
+  position: relative;
+}
+.logo a{
+  font-size: 40px;
+  font-weight: bold;
+  float: left;
+  font-family: courier;
+  color: #363062;
+}
+
+.menu{
+  float: right;
+}
+nav{
+  width: 100%;
+  margin : auto;
+  display: flex;
+  line-height: 75px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  border-bottom: 1px solid #363062;
+}
+nav ul{
+  list-style-type: none;
+  margin : 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  color: #363062;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 15px 0px 0px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+a.tbl-biru{
+  background: #4D4C7D;
+  border-radius: 50px;
+  margin-top: 50px;
+  padding:15px 20px 20px 15px ;
+  color:white ;
+  cursor:pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover{
+  background: #827397;
+  text-decoration: none;
+}
+h1{
+  font-family: 'Bookman Old Style';
+  font-weight: 50px;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #363062;
+  width: 100%;
+  line-height: 50px;
+}
+ul{
+  color: #222222;
+  margin-top: 10px;
+}
+p{
+  margin: 10px 0px 10px 0px;
+  padding:10px 0px 10px 0px ;
+  text-align: justify;
+}
+section {
+  display: flex;
+  margin-bottom: 15px;
+  color: #222222;
+
+}
+image{
+  image-orientation: initial;
+}
+#copyright{
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 990px) {
+  .wrapper{
+    width: 90%;
+  }
+  .logo a{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav .menu{
+    width: 100%;
+    margin :0;
+  }
+  nav.menu ul{
+    text-align: center;
+    margin: auto;
+    line-height: 60pc;
+  }
+
+  nav .menu ul li{
+    display: inline-block;
+    float: none;
+  }
+}

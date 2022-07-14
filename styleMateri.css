@@ -73,7 +73,7 @@ a.tbl-biru:hover{
 }
 h1{
   font-family: 'Bookman Old Style';
-  font-weight: 50px;
+  font-weight: bold;
   font-size: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -81,9 +81,32 @@ h1{
   width: 100%;
   line-height: 50px;
 }
+h2{
+  font-family: 'Bookman Old Style';
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #363062;
+  width: 100%;
+  line-height: 50px;
+}
+aside{
+  width:35%;
+  height:310px;
+  float:right;
+  background:#E9D5CA;
+  padding:10px 0px 10px 0px;
+  margin-top: 70px;
+}
+article{
+  width: 60%;
+  float: left;
+}
+
 ul{
   color: #222222;
   margin-top: 10px;
+  float: left;
 }
 p{
   margin: 10px 0px 10px 0px;
@@ -91,14 +114,13 @@ p{
   text-align: justify;
 }
 section {
+  width: 50%;
   display: flex;
   margin-bottom: 15px;
   color: #222222;
 
 }
-image{
-  image-orientation: initial;
-}
+
 #copyright{
   text-align: center;
   width: 100%;
